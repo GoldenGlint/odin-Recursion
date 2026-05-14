@@ -20,6 +20,8 @@ function fibs(n){
 }
 
 function fibsRecursion(n){
+    console.log("This was printed recursively");
+
     if (n==1){
         return [0];
     }
